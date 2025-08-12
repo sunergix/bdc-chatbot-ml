@@ -1,0 +1,8 @@
+pandas
+langchain_openai
+# langchain_google_genai
+langchain_experimental
+pydantic
+fastapi
+uvicorn
+tabulate
