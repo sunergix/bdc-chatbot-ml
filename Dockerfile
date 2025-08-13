@@ -1,5 +1,5 @@
 # Step 1: Use an official Python runtime as a parent image
-FROM python:3.11-slim
+FROM 109675754062.dkr.ecr.us-west-2.amazonaws.com/base_python3.11:latest
 
 # Step 2: Set environment variables
 ENV PYTHONDONTWRITEBYTECODE=1 \
