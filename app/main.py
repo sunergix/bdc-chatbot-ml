@@ -4,9 +4,8 @@ import pandas as pd
 from pydantic import BaseModel
 from dotenv import load_dotenv
 from fastapi import FastAPI, HTTPException
-from langchain_google_genai import ChatGoogleGenerativeAI
+# from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_experimental.agents import create_pandas_dataframe_agent
-# from langchain_experimental.agents.agent_toolkits import create_pandas_dataframe_agent
 
 from langchain_openai import ChatOpenAI
 from langchain.agents.agent_types import AgentType
