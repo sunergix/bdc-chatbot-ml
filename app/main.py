@@ -212,7 +212,11 @@ class QueryRequest(BaseModel):
     question: str
     bdc: str
     quarter: str
-
+    
+@app.get("/")
+async def test_url():
+    return {"message": f"Chatbot api runnining successfully!"}
+    
 @app.post("/api/v1/query")
 async def query_agent(request: QueryRequest) -> Dict:
     try:
